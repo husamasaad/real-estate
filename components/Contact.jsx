@@ -12,21 +12,22 @@ export default function Contact(){
     console.log(bannerImage);
     return (
         <SimpleGrid columns={{ base: 1, md: 2 }} spacing={0}>
-        <Flex bg="brand.400" py="20">
+        <Flex bg="brand.400" py="20" justifyContent="center">
             <Image
             className="bannerImage"
             src={bannerImage.src}
             fit="cover"
-            width={600} height={400}
+            height={400}
             bg="gray.100"
             loading="lazy"
             opacity={0.9}
             alt="contact"
+            m="auto"
             />
         </Flex>
         <Flex
             direction="column"
-            alignItems="start"
+            alignItems={{ base: "center", md: "start" }}
             justifyContent="center"
             px={{ base: 4, md: 8, lg: 20 }}
             py={24}

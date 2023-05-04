@@ -10,14 +10,14 @@
 
 .bannerImage {
     object-fit: cover;
-    height: 280px;
+    height: 280px !important;
     /* border-radius: 78% 22% 88% 12% / 20% 93% 7% 80%; */
     box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
 }
 
 @media (min-width: 767px) {
     .bannerImage {
-        height: 480px;
+        height: 480px !important;
         border-radius: 69% 31% 71% 29% / 57% 57% 43% 43%;
     }
 }
