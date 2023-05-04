@@ -19,10 +19,10 @@ const Banner = ({ purpose, title1, title2, desc1, desc2, linkName, imageUrl, but
       <Text fontSize={{ base: 'm', lg: 'l' }} paddingTop="3" paddingBottom="5" color="gray.700" fontWeight="medium">
         {desc1}<br />{desc2}
       </Text>
-      <Button fontSize="xl" marginRight="3" size='lg' colorScheme='teal' variant='outline'>
+      <Button fontSize="xl" marginRight="3" size='lg' colorScheme='teal' variant='outline' mb={{base: "3", md: "0"}} w="200px">
         <Link href={linkName}>{buttonText1}</Link>
       </Button>
-      <Button fontSize="xl" size='lg' colorScheme='teal' variant='outline'>
+      <Button fontSize="xl" size='lg' colorScheme='teal' variant='outline' w="200px">
         <Link href={linkName}>{buttonText2}</Link>
       </Button>
     </Box>

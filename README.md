@@ -13,7 +13,7 @@ The website is integrated with an external API, which provides up-to-date inform
 
 ## Live Demonstration
 
-The Website demo can be [viewed online here](https://real-estate.vercel.app/).
+The Website demo can be [viewed online here](https://real-estate-six-sooty.vercel.app).
 
 Here are some screenshots :
 

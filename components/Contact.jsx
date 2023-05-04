@@ -30,7 +30,7 @@ export default function Contact(){
             alignItems={{ base: "center", md: "start" }}
             justifyContent="center"
             px={{ base: 4, md: 8, lg: 20 }}
-            py={24}
+            pb={24}
             zIndex={3}
         >
             <chakra.span
